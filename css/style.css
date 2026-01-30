@@ -1349,15 +1349,9 @@
 }
 .container main .karta {
   position: absolute;
-  top: 80px;
+  top: 15px;
   left: 40px;
   z-index: 2;
-}
-.container main .karta1 {
-  position: absolute;
-  left: 50px;
-  top: 40px;
-  z-index: 1;
 }
 .container main .soz41 {
   color: white;
@@ -1393,15 +1387,9 @@
 }
 .container main .card31 .karta {
   position: absolute;
-  top: 80px;
+  top: 15px;
   left: 40px;
   z-index: 2;
-}
-.container main .card31 .karta1 {
-  position: absolute;
-  left: 50px;
-  top: 40px;
-  z-index: 1;
 }
 .container main .card31 .soz41 {
   color: white;
@@ -1437,15 +1425,9 @@
 }
 .container main .card32 .karta {
   position: absolute;
-  top: 80px;
+  top: 15px;
   left: 40px;
   z-index: 2;
-}
-.container main .card32 .karta1 {
-  position: absolute;
-  left: 50px;
-  top: 40px;
-  z-index: 1;
 }
 .container main .card32 .soz41 {
   color: white;
@@ -1495,11 +1477,13 @@
   height: 60px;
   border-radius: 20px;
   background-color: white;
-  color: #A259FF;
+  color: white;
   position: absolute;
   bottom: 100px;
   right: 100px;
   border: none;
+  background-color: #A259FF;
+  z-index: 1;
 }
 .container main .chek6:hover {
   cursor: pointer;
@@ -1514,13 +1498,14 @@
   color: #A259FF;
   position: absolute;
   bottom: 100px;
-  right: 320px;
+  right: 280px;
   border: none;
+  padding-left: 40px;
 }
 .container main .chek7:hover {
   cursor: pointer;
-  background-color: #A259FF;
-  color: white;
+  color: #A259FF;
+  border: 1px solid transparent;
 }
 .container main .past {
   width: 99.9%;
@@ -1594,11 +1579,13 @@
   height: 60px;
   border-radius: 20px;
   background-color: white;
-  color: #A259FF;
+  color: white;
   position: absolute;
   bottom: 100px;
   right: 100px;
+  z-index: 1;
   border: none;
+  background-color: #A259FF;
 }
 .container main .chek9:hover {
   cursor: pointer;
@@ -1613,13 +1600,11 @@
   color: #A259FF;
   position: absolute;
   bottom: 100px;
-  right: 320px;
+  right: 280px;
   border: none;
-}
-.container main .chek10:hover {
-  cursor: pointer;
-  background-color: #A259FF;
-  color: white;
+  padding-left: 40px;
+  border: none;
+  border: 1px solid grey;
 }
 .container main .past {
   width: 99.9%;

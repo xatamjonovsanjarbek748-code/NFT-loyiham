@@ -1358,15 +1358,9 @@
         }
         .karta{
             position: absolute;
-            top: 80px;
+            top: 15px;
             left: 40px;
             z-index: 2;
-        }
-        .karta1{
-            position: absolute;
-            left: 50px;
-            top: 40px;
-            z-index: 1;
         }
         .soz41{
             color: white;
@@ -1402,15 +1396,9 @@
         }
         .card31 .karta{
             position: absolute;
-            top: 80px;
+            top:15px;
             left: 40px;
             z-index: 2;
-        }
-        .card31 .karta1{
-            position: absolute;
-            left: 50px;
-            top: 40px;
-            z-index: 1;
         }
         .card31 .soz41{
             color: white;
@@ -1446,15 +1434,9 @@
         }
         .card32 .karta{
             position: absolute;
-            top: 80px;
+            top: 15px;
             left: 40px;
             z-index: 2;
-        }
-        .card32 .karta1{
-            position: absolute;
-            left: 50px;
-            top: 40px;
-            z-index: 1;
         }
         .card32 .soz41{
             color: white;
@@ -1504,11 +1486,13 @@
             height: 60px;
             border-radius: 20px;
             background-color: white;
-            color: #A259FF;
+            color:white;
             position: absolute;
             bottom: 100px;
             right: 100px;
             border: none;
+            background-color: #A259FF;
+            z-index: 1;
         }
         .chek6:hover{
             cursor: pointer;
@@ -1523,13 +1507,14 @@
             color: #A259FF;
             position: absolute;
             bottom: 100px;
-            right: 320px;
+            right: 280px;
             border: none;
+            padding-left: 40px;
         }
         .chek7:hover{
             cursor: pointer;
-            background-color: #A259FF;
-            color: white;
+            color: #A259FF;
+            border: 1px solid transparent;
         }
         .past{
             width: 99.9%;
@@ -1602,11 +1587,13 @@
             height: 60px;
             border-radius: 20px;
             background-color: white;
-            color: #A259FF;
+            color: white;
             position: absolute;
             bottom: 100px;
             right: 100px;
+            z-index: 1;
             border: none;
+            background-color: #A259FF;
         }
         .chek9:hover{
             cursor: pointer;
@@ -1621,14 +1608,13 @@
             color: #A259FF;
             position: absolute;
             bottom: 100px;
-            right: 320px;
+            right: 280px;
             border: none;
+            padding-left: 40px;
+            border: none;
+            border: 1px solid grey;
         }
-        .chek10:hover{
-            cursor: pointer;
-            background-color: #A259FF;
-            color: white;
-        }
+        
         .past{
             width: 99.9%;
             height: 340px;
